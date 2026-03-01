@@ -22,10 +22,12 @@ const FREE_DAILY_LIMIT: u32 = 50;
 const DEFAULT_MIN_TRIGGER_LEN: usize = 10;
 const MAX_CONTEXT_CHARS: usize = 300;
 const STATE_FILENAME: &str = "typeace-state.json";
-const GHOST_WIDTH: i32 = 420;
-const GHOST_HEIGHT: i32 = 44;
-const GHOST_OFFSET_X: i32 = 10;
-const GHOST_OFFSET_Y: i32 = 6;
+const GHOST_WIDTH: i32 = 720;
+const GHOST_HEIGHT: i32 = 26;
+const GHOST_OFFSET_X: i32 = 1;
+const GHOST_OFFSET_Y: i32 = 0;
+const WINDOW_FALLBACK_X: i32 = 28;
+const WINDOW_FALLBACK_Y: i32 = 48;
 
 #[derive(Debug, Clone, Serialize, Deserialize, Default)]
 #[serde(rename_all = "camelCase")]
@@ -133,6 +135,7 @@ struct RuntimeState {
   buffer: String,
   suggestion: Option<String>,
   ghost_visible: bool,
+  pending_tab_accept: bool,
   pending_task: Option<tauri::async_runtime::JoinHandle<()>>,
 }
 
@@ -246,6 +249,7 @@ fn update_settings(
       runtime.buffer.clear();
       runtime.suggestion = None;
       runtime.ghost_visible = false;
+      runtime.pending_tab_accept = false;
       should_hide = true;
     }
 
@@ -268,7 +272,7 @@ fn dismiss_ghost(app: AppHandle, state: State<'_, Arc<ManagedState>>) -> Result<
 
 #[tauri::command]
 fn accept_suggestion(app: AppHandle, state: State<'_, Arc<ManagedState>>) -> Result<bool, String> {
-  let accepted = accept_current_suggestion(&app, &state)?;
+  let accepted = accept_current_suggestion(&app, &state, false)?;
   Ok(accepted)
 }
 
@@ -379,6 +383,7 @@ fn dismiss_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) {
     let needed = runtime.suggestion.is_some() || runtime.ghost_visible;
     runtime.suggestion = None;
     runtime.ghost_visible = false;
+    runtime.pending_tab_accept = false;
     needed
   };
 
@@ -388,7 +393,11 @@ fn dismiss_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) {
   }
 }
 
-fn accept_current_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) -> Result<bool, String> {
+fn accept_current_suggestion(
+  app: &AppHandle,
+  managed: &Arc<ManagedState>,
+  remove_trigger_tab: bool,
+) -> Result<bool, String> {
   let suggestion = {
     let mut runtime = managed.runtime.lock().map_err(|_| "runtime lock failed")?;
     runtime.usage.refresh_day();
@@ -400,6 +409,7 @@ fn accept_current_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) -> Re
     if !runtime.settings.is_pro && runtime.usage.used_today >= runtime.usage.free_limit {
       runtime.suggestion = None;
       runtime.ghost_visible = false;
+      runtime.pending_tab_accept = false;
       hide_ghost_window(app);
       return Err(format!(
         "Free 版今日配额已用完（{} 次）。",
@@ -414,7 +424,8 @@ fn accept_current_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) -> Re
   };
 
   log::info!("accept_current_suggestion triggered");
-  inject_text_via_paste(&suggestion)?;
+  hide_ghost_window(app);
+  inject_text_via_paste(&suggestion, remove_trigger_tab)?;
 
   {
     let mut runtime = managed.runtime.lock().map_err(|_| "runtime lock failed")?;
@@ -424,6 +435,7 @@ fn accept_current_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) -> Re
     }
     runtime.suggestion = None;
     runtime.ghost_visible = false;
+    runtime.pending_tab_accept = false;
     persist_state(app, &runtime.settings, &runtime.usage)?;
   }
 
@@ -432,7 +444,7 @@ fn accept_current_suggestion(app: &AppHandle, managed: &Arc<ManagedState>) -> Re
   Ok(true)
 }
 
-fn inject_text_via_paste(text: &str) -> Result<(), String> {
+fn inject_text_via_paste(text: &str, remove_trigger_tab: bool) -> Result<(), String> {
   log::info!("inject_text_via_paste start, chars={}", text.chars().count());
   let inject_text = text.to_string();
   let worker = std::thread::spawn(move || -> Result<(), String> {
@@ -442,14 +454,19 @@ fn inject_text_via_paste(text: &str) -> Result<(), String> {
     clipboard
       .set_text(inject_text)
       .map_err(|e| format!("failed writing clipboard: {e}"))?;
-    std::thread::sleep(Duration::from_millis(20));
+    std::thread::sleep(Duration::from_millis(80));
 
-    simulate(&EventType::KeyPress(Key::ControlLeft)).map_err(|e| format!("simulate key failed: {e:?}"))?;
-    simulate(&EventType::KeyPress(Key::KeyV)).map_err(|e| format!("simulate key failed: {e:?}"))?;
-    simulate(&EventType::KeyRelease(Key::KeyV)).map_err(|e| format!("simulate key failed: {e:?}"))?;
-    simulate(&EventType::KeyRelease(Key::ControlLeft)).map_err(|e| format!("simulate key failed: {e:?}"))?;
+    if remove_trigger_tab {
+      if let Err(err) = send_backspace() {
+        log::warn!("send_backspace failed: {}", err);
+      } else {
+        std::thread::sleep(Duration::from_millis(20));
+      }
+    }
 
-    std::thread::sleep(Duration::from_millis(20));
+    send_paste_shortcut()?;
+
+    std::thread::sleep(Duration::from_millis(180));
     if let Some(old) = previous {
       let _ = clipboard.set_text(old);
     }
@@ -462,6 +479,110 @@ fn inject_text_via_paste(text: &str) -> Result<(), String> {
     .map_err(|_| "paste worker panicked".to_string())?
 }
 
+fn simulate_ctrl_v_rdev() -> Result<(), String> {
+  simulate(&EventType::KeyPress(Key::ControlLeft)).map_err(|e| format!("simulate key failed: {e:?}"))?;
+  std::thread::sleep(Duration::from_millis(8));
+  simulate(&EventType::KeyPress(Key::KeyV)).map_err(|e| format!("simulate key failed: {e:?}"))?;
+  std::thread::sleep(Duration::from_millis(8));
+  simulate(&EventType::KeyRelease(Key::KeyV)).map_err(|e| format!("simulate key failed: {e:?}"))?;
+  std::thread::sleep(Duration::from_millis(8));
+  simulate(&EventType::KeyRelease(Key::ControlLeft)).map_err(|e| format!("simulate key failed: {e:?}"))
+}
+
+fn simulate_backspace_rdev() -> Result<(), String> {
+  simulate(&EventType::KeyPress(Key::Backspace)).map_err(|e| format!("simulate key failed: {e:?}"))?;
+  std::thread::sleep(Duration::from_millis(8));
+  simulate(&EventType::KeyRelease(Key::Backspace)).map_err(|e| format!("simulate key failed: {e:?}"))
+}
+
+#[cfg(target_os = "windows")]
+fn send_paste_shortcut() -> Result<(), String> {
+  match send_ctrl_v_windows() {
+    Ok(()) => Ok(()),
+    Err(err) => {
+      log::warn!("SendInput Ctrl+V failed, fallback to rdev: {}", err);
+      simulate_ctrl_v_rdev()
+    }
+  }
+}
+
+#[cfg(not(target_os = "windows"))]
+fn send_paste_shortcut() -> Result<(), String> {
+  simulate_ctrl_v_rdev()
+}
+
+#[cfg(target_os = "windows")]
+fn send_backspace() -> Result<(), String> {
+  match send_key_tap_windows(0x08) {
+    Ok(()) => Ok(()),
+    Err(err) => {
+      log::warn!("SendInput Backspace failed, fallback to rdev: {}", err);
+      simulate_backspace_rdev()
+    }
+  }
+}
+
+#[cfg(not(target_os = "windows"))]
+fn send_backspace() -> Result<(), String> {
+  simulate_backspace_rdev()
+}
+
+#[cfg(target_os = "windows")]
+fn send_ctrl_v_windows() -> Result<(), String> {
+  use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+
+  send_key_chord_windows(VK_CONTROL.0, 0x56, KEYEVENTF_KEYUP)
+}
+
+#[cfg(target_os = "windows")]
+fn send_key_tap_windows(vk: u16) -> Result<(), String> {
+  use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+  send_input_windows(&[key_input(vk, 0), key_input(vk, KEYEVENTF_KEYUP.0)])
+}
+
+#[cfg(target_os = "windows")]
+fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result<(), String> {
+  send_input_windows(&[
+    key_input(mod_vk, 0),
+    key_input(key_vk, 0),
+    key_input(key_vk, keyup_flag.0),
+    key_input(mod_vk, keyup_flag.0),
+  ])
+}
+
+#[cfg(target_os = "windows")]
+fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+  use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+
+  INPUT {
+    r#type: INPUT_KEYBOARD,
+    Anonymous: INPUT_0 {
+      ki: KEYBDINPUT {
+        wVk: VIRTUAL_KEY(vk),
+        wScan: 0,
+        dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+        time: 0,
+        dwExtraInfo: 0,
+      },
+    },
+  }
+}
+
+#[cfg(target_os = "windows")]
+fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+  use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+
+  let sent = unsafe { SendInput(inputs, std::mem::size_of::<INPUT>() as i32) };
+  if sent == 0 {
+    return Err("SendInput returned 0".to_string());
+  }
+
+  if sent != inputs.len() as u32 {
+    return Err(format!("SendInput partial send: {sent}/{}", inputs.len()));
+  }
+  Ok(())
+}
+
 fn trim_buffer_to_recent(buffer: &str, limit: usize) -> String {
   let chars: Vec<char> = buffer.chars().collect();
   if chars.len() <= limit {
@@ -471,18 +592,13 @@ fn trim_buffer_to_recent(buffer: &str, limit: usize) -> String {
 }
 
 fn should_track_input() -> bool {
-  #[cfg(target_os = "windows")]
-  {
-    is_safe_text_focus_windows()
-  }
-
-  #[cfg(not(target_os = "windows"))]
-  {
-    true
-  }
+  // Temporary behavior: disable focus-class safety filtering so IM/chat
+  // clients (e.g. WeCom) are not blocked while testing completion flow.
+  true
 }
 
 #[cfg(target_os = "windows")]
+#[allow(dead_code)]
 fn is_safe_text_focus_windows() -> bool {
   use windows::Win32::UI::WindowsAndMessaging::{
     GetClassNameW, GetForegroundWindow, GetGUIThreadInfo, GetWindowLongPtrW, GetWindowThreadProcessId, GUITHREADINFO,
@@ -525,6 +641,7 @@ fn is_safe_text_focus_windows() -> bool {
 }
 
 #[cfg(target_os = "windows")]
+#[allow(dead_code)]
 fn is_likely_text_class(class_name: &str) -> bool {
   matches!(
     class_name,
@@ -540,13 +657,32 @@ fn is_likely_text_class(class_name: &str) -> bool {
 fn caret_position() -> Option<(i32, i32)> {
   #[cfg(target_os = "windows")]
   {
-    caret_position_windows()
+    ghost_anchor_position_windows()
   }
 
   #[cfg(not(target_os = "windows"))]
   {
     None
   }
+}
+
+#[cfg(target_os = "windows")]
+fn ghost_anchor_position_windows() -> Option<(i32, i32)> {
+  if let Some(pos) = caret_position_windows() {
+    return Some(pos);
+  }
+
+  if let Some(pos) = mouse_position_windows() {
+    log::info!("ghost anchor fallback: mouse position");
+    return Some(pos);
+  }
+
+  if let Some(pos) = foreground_window_fallback_windows() {
+    log::info!("ghost anchor fallback: foreground window position");
+    return Some(pos);
+  }
+
+  None
 }
 
 #[cfg(target_os = "windows")]
@@ -579,9 +715,18 @@ fn caret_position_windows() -> Option<(i32, i32)> {
       return None;
     }
 
+    // Some apps report zeroed caret rects. That means unavailable.
+    if gui.rcCaret.left == 0 && gui.rcCaret.top == 0 && gui.rcCaret.right == 0 && gui.rcCaret.bottom == 0 {
+      return None;
+    }
+
     let mut point = POINT {
-      x: gui.rcCaret.right,
-      y: gui.rcCaret.bottom,
+      x: if gui.rcCaret.right > gui.rcCaret.left {
+        gui.rcCaret.right
+      } else {
+        gui.rcCaret.left
+      },
+      y: gui.rcCaret.top,
     };
 
     if !ClientToScreen(target, &mut point).as_bool() {
@@ -589,6 +734,41 @@ fn caret_position_windows() -> Option<(i32, i32)> {
     }
 
     Some((point.x, point.y))
+  }
+}
+
+#[cfg(target_os = "windows")]
+fn mouse_position_windows() -> Option<(i32, i32)> {
+  use windows::Win32::{
+    Foundation::POINT,
+    UI::WindowsAndMessaging::GetCursorPos,
+  };
+
+  unsafe {
+    let mut point = POINT::default();
+    if GetCursorPos(&mut point).is_err() {
+      return None;
+    }
+    Some((point.x, point.y))
+  }
+}
+
+#[cfg(target_os = "windows")]
+fn foreground_window_fallback_windows() -> Option<(i32, i32)> {
+  use windows::Win32::UI::WindowsAndMessaging::{GetForegroundWindow, GetWindowRect};
+
+  unsafe {
+    let foreground = GetForegroundWindow();
+    if foreground.0.is_null() {
+      return None;
+    }
+
+    let mut rect = windows::Win32::Foundation::RECT::default();
+    if GetWindowRect(foreground, &mut rect).is_err() {
+      return None;
+    }
+
+    Some((rect.left + WINDOW_FALLBACK_X, rect.top + WINDOW_FALLBACK_Y))
   }
 }
 
@@ -600,6 +780,8 @@ fn ensure_ghost_window(app: &AppHandle) -> Result<(), String> {
   tauri::WebviewWindowBuilder::new(app, "ghost", tauri::WebviewUrl::App("ghost".into()))
     .title("TypeAce Ghost")
     .visible(false)
+    .focusable(false)
+    .focused(false)
     .decorations(false)
     .shadow(false)
     .always_on_top(true)
@@ -620,12 +802,16 @@ fn show_ghost_window(app: &AppHandle, text: &str) {
   }
 
   if let Some(window) = app.get_webview_window("ghost") {
-    if let Some((x, y)) = caret_position() {
-      let _ = window.set_position(Position::Physical(PhysicalPosition::new(
-        x + GHOST_OFFSET_X,
-        y + GHOST_OFFSET_Y,
-      )));
-    }
+    let Some((x, y)) = caret_position() else {
+      log::info!("show_ghost_window skipped: position unavailable");
+      let _ = window.hide();
+      return;
+    };
+
+    let _ = window.set_position(Position::Physical(PhysicalPosition::new(
+      x + GHOST_OFFSET_X,
+      y + GHOST_OFFSET_Y,
+    )));
 
     let _ = window.emit(
       "typeace://ghost",
@@ -727,6 +913,7 @@ fn schedule_prediction(app: AppHandle, managed: Arc<ManagedState>, context: Stri
 
       runtime.suggestion = Some(prediction.clone());
       runtime.ghost_visible = true;
+      runtime.pending_tab_accept = false;
       runtime.pending_task = None;
     }
 
@@ -767,6 +954,7 @@ fn update_context_with_text(app: &AppHandle, managed: &Arc<ManagedState>, text: 
     runtime.buffer.clear();
     runtime.suggestion = None;
     runtime.ghost_visible = false;
+    runtime.pending_tab_accept = false;
     cancel_pending_locked(&mut runtime);
     hide_ghost_window(app);
     return;
@@ -787,6 +975,7 @@ fn update_context_with_text(app: &AppHandle, managed: &Arc<ManagedState>, text: 
     log::info!("buffer updated, len={}", runtime.buffer.chars().count());
     runtime.suggestion = None;
     runtime.ghost_visible = false;
+    runtime.pending_tab_accept = false;
 
     if runtime.buffer.chars().count() < runtime.settings.minimum_length {
       cancel_pending_locked(&mut runtime);
@@ -813,6 +1002,7 @@ fn update_context_backspace(app: &AppHandle, managed: &Arc<ManagedState>) {
     runtime.buffer.pop();
     runtime.suggestion = None;
     runtime.ghost_visible = false;
+    runtime.pending_tab_accept = false;
 
     if runtime.buffer.chars().count() < runtime.settings.minimum_length {
       cancel_pending_locked(&mut runtime);
@@ -990,9 +1180,17 @@ async fn process_input_events(
         };
 
         if should_accept {
-          log::info!("global hotkey matched, accepting suggestion");
-          if let Err(err) = accept_current_suggestion(&app, &managed) {
-            emit_error_event(&app, err);
+          let is_tab_key = key == Key::Tab;
+          if is_tab_key {
+            if let Ok(mut runtime) = managed.runtime.lock() {
+              runtime.pending_tab_accept = true;
+            }
+            log::info!("global hotkey matched on Tab, waiting key release");
+          } else {
+            log::info!("global hotkey matched, accepting suggestion");
+            if let Err(err) = accept_current_suggestion(&app, &managed, false) {
+              emit_error_event(&app, err);
+            }
           }
           continue;
         }
@@ -1026,6 +1224,26 @@ async fn process_input_events(
       InputEvent::KeyRelease { key } => {
         if key == Key::Escape {
           dismiss_suggestion(&app, &managed);
+          continue;
+        }
+
+        if key == Key::Tab {
+          let should_accept = {
+            let mut runtime = match managed.runtime.lock() {
+              Ok(value) => value,
+              Err(_) => continue,
+            };
+            let pending = runtime.pending_tab_accept;
+            runtime.pending_tab_accept = false;
+            pending
+          };
+
+          if should_accept {
+            log::info!("tab released, accepting suggestion");
+            if let Err(err) = accept_current_suggestion(&app, &managed, true) {
+              emit_error_event(&app, err);
+            }
+          }
         }
       }
     }
@@ -1253,6 +1471,7 @@ pub fn run() {
         buffer: String::new(),
         suggestion: None,
         ghost_visible: false,
+        pending_tab_accept: false,
         pending_task: None,
       };
 

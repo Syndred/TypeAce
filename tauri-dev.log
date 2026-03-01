@@ -560,3 +560,2191 @@
 [2026-03-01][10:07:59][typeace_lib][INFO] request_prediction mock_enabled=false
 [2026-03-01][10:07:59][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
 [2026-03-01][10:07:59][typeace_lib][INFO] prediction ready: work together on this project
+ ✓ Compiled in 132ms (467 modules)
+ GET / 200 in 53ms
+ GET /ghost/ 200 in 54ms
+ ✓ Compiled in 210ms (467 modules)
+ GET /ghost/ 200 in 31ms
+ GET / 200 in 30ms
+[2026-03-01][10:10:09][typeace_lib][INFO] global text input: k
+[2026-03-01][10:10:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:10:09][typeace_lib][INFO] global text input: d
+[2026-03-01][10:10:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:10:09][typeace_lib][INFO] global text input: s
+[2026-03-01][10:10:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:10:09][typeace_lib][INFO] global text input: f
+[2026-03-01][10:10:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:10:14][typeace_lib][INFO] global key: Return/Tab
+[2026-03-01][10:10:15][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:15][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:15][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:15][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:16][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:16][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:44][typeace_lib][INFO] global text input: g
+[2026-03-01][10:10:44][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:10:45][typeace_lib][INFO] global text input: i
+[2026-03-01][10:10:45][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:10:45][typeace_lib][INFO] global text input: t
+[2026-03-01][10:10:45][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:10:45][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:45][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:46][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:10:46][typeace_lib][INFO] global text input: f
+[2026-03-01][10:10:46][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:10:46][typeace_lib][INFO] global text input: e
+[2026-03-01][10:10:46][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:10:46][typeace_lib][INFO] global text input: a
+[2026-03-01][10:10:46][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:10:46][typeace_lib][INFO] global text input: t
+[2026-03-01][10:10:46][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:10:47][typeace_lib][INFO] global text input: :
+[2026-03-01][10:10:47][typeace_lib][INFO] buffer updated, len=5
+[2026-03-01][10:10:48][typeace_lib][INFO] global text input: i
+[2026-03-01][10:10:48][typeace_lib][INFO] buffer updated, len=6
+[2026-03-01][10:10:48][typeace_lib][INFO] global text input: n
+[2026-03-01][10:10:48][typeace_lib][INFO] buffer updated, len=7
+[2026-03-01][10:10:48][typeace_lib][INFO] global text input: i
+[2026-03-01][10:10:48][typeace_lib][INFO] buffer updated, len=8
+[2026-03-01][10:10:49][typeace_lib][INFO] global text input: t
+[2026-03-01][10:10:49][typeace_lib][INFO] buffer updated, len=9
+ ✓ Compiled in 192ms (467 modules)
+ GET / 200 in 34ms
+ GET /ghost/ 200 in 36ms
+ ✓ Compiled in 113ms (467 modules)
+ GET / 200 in 24ms
+ GET /ghost/ 200 in 26ms
+ ✓ Compiled in 95ms (467 modules)
+ GET / 200 in 28ms
+ GET /ghost/ 200 in 29ms
+ ✓ Compiled in 99ms (467 modules)
+ GET / 200 in 47ms
+ GET /ghost/ 200 in 49ms
+ ✓ Compiled in 184ms (467 modules)
+ GET / 200 in 33ms
+ GET /ghost/ 200 in 38ms
+ ✓ Compiled in 158ms (467 modules)
+ GET / 200 in 40ms
+ GET /ghost/ 200 in 42ms
+ ✓ Compiled in 121ms (467 modules)
+ GET / 200 in 25ms
+ GET /ghost/ 200 in 26ms
+ ✓ Compiled in 106ms (467 modules)
+ GET /ghost/ 200 in 18ms
+ ✓ Compiled in 128ms (467 modules)
+ GET /ghost/ 200 in 17ms
+ ✓ Compiled in 110ms (467 modules)
+ GET /ghost/ 200 in 18ms
+ ✓ Compiled in 103ms (467 modules)
+ GET /ghost/ 200 in 12ms
+ ✓ Compiled in 91ms (467 modules)
+ GET /ghost/ 200 in 14ms
+ ✓ Compiled in 102ms (467 modules)
+ GET /ghost/ 200 in 14ms
+ ✓ Compiled in 113ms (467 modules)
+ GET /ghost/ 200 in 19ms
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 129ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 135ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 127ms (467 modules)
+[2026-03-01][10:11:44][typeace_lib][INFO] global text input: s
+[2026-03-01][10:11:44][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:11:44][typeace_lib][INFO] global text input: d
+[2026-03-01][10:11:44][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:11:44][typeace_lib][INFO] global text input: l
+[2026-03-01][10:11:44][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:11:44][typeace_lib][INFO] global text input: f
+[2026-03-01][10:11:44][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:11:44][typeace_lib][INFO] global text input: j
+[2026-03-01][10:11:44][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:27][typeace_lib][INFO] global text input: s
+[2026-03-01][10:12:27][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:28][typeace_lib][INFO] global text input: d
+[2026-03-01][10:12:28][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:28][typeace_lib][INFO] global text input: a
+[2026-03-01][10:12:28][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:28][typeace_lib][INFO] global text input: o
+[2026-03-01][10:12:28][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:28][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:12:28][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:12:28][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:12:28][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:12:29][typeace_lib][INFO] global text input: s
+[2026-03-01][10:12:29][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:29][typeace_lib][INFO] global text input: d
+[2026-03-01][10:12:29][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:29][typeace_lib][INFO] global text input: a
+[2026-03-01][10:12:29][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:29][typeace_lib][INFO] global text input: o
+[2026-03-01][10:12:29][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input:  
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input: b
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input: i
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input: j
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input: i
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:30][typeace_lib][INFO] global text input:  
+[2026-03-01][10:12:30][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:31][typeace_lib][INFO] global text input: l
+[2026-03-01][10:12:31][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:31][typeace_lib][INFO] global text input: a
+[2026-03-01][10:12:31][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:31][typeace_lib][INFO] global text input:  
+[2026-03-01][10:12:31][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:32][typeace_lib][INFO] global text input: !
+[2026-03-01][10:12:32][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:32][typeace_lib][INFO] global key: Return/Tab
+[2026-03-01][10:12:51][typeace_lib][INFO] global text input: d
+[2026-03-01][10:12:51][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:51][typeace_lib][INFO] global text input: s
+[2026-03-01][10:12:51][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:51][typeace_lib][INFO] global text input: k
+[2026-03-01][10:12:51][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:12:51][typeace_lib][INFO] global text input:  
+[2026-03-01][10:12:51][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:13:01][typeace_lib][INFO] global text input:  
+[2026-03-01][10:13:01][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:13:02][typeace_lib][INFO] global text input: v
+[2026-03-01][10:13:02][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:13:02][typeace_lib][INFO] global text input: s
+[2026-03-01][10:13:02][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:13:02][typeace_lib][INFO] global key: Return/Tab
+ ✓ Compiled in 282ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 188ms (467 modules)
+ ✓ Compiled in 216ms (467 modules)
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 150ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 138ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 205ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 139ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 150ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 147ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 126ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 237ms (467 modules)
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 124ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 123ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 157ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 129ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+ ✓ Compiled in 130ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 144ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 143ms (467 modules)
+[2026-03-01][10:13:57][typeace_lib][INFO] global text input: t
+[2026-03-01][10:13:57][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:13:57][typeace_lib][INFO] global text input: a
+[2026-03-01][10:13:57][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:13:58][typeace_lib][INFO] global text input: u
+[2026-03-01][10:13:58][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:13:59][typeace_lib][INFO] global text input: r
+[2026-03-01][10:13:59][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:13:59][typeace_lib][INFO] global text input: i
+[2026-03-01][10:13:59][typeace_lib][INFO] buffer updated, len=5
+[2026-03-01][10:14:01][typeace_lib][INFO] global text input: -
+[2026-03-01][10:14:01][typeace_lib][INFO] buffer updated, len=6
+[2026-03-01][10:14:01][typeace_lib][INFO] global text input: d
+[2026-03-01][10:14:01][typeace_lib][INFO] buffer updated, len=7
+[2026-03-01][10:14:01][typeace_lib][INFO] global text input: e
+[2026-03-01][10:14:01][typeace_lib][INFO] buffer updated, len=8
+[2026-03-01][10:14:01][typeace_lib][INFO] global text input: v
+[2026-03-01][10:14:01][typeace_lib][INFO] buffer updated, len=9
+[2026-03-01][10:14:03][typeace_lib][INFO] global text input: .
+[2026-03-01][10:14:03][typeace_lib][INFO] buffer updated, len=10
+[2026-03-01][10:14:04][typeace_lib][INFO] request_prediction with 10 chars
+[2026-03-01][10:14:04][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:14:04][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:14:04][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:14:04][typeace_lib][INFO] global text input: l
+[2026-03-01][10:14:04][typeace_lib][INFO] buffer updated, len=11
+[2026-03-01][10:14:04][typeace_lib][INFO] global text input: g
+[2026-03-01][10:14:04][typeace_lib][INFO] buffer updated, len=12
+[2026-03-01][10:14:04][typeace_lib][INFO] request_prediction with 12 chars
+[2026-03-01][10:14:04][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:14:04][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:14:04][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:14:05][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:14:05][typeace_lib][INFO] global text input: o
+[2026-03-01][10:14:05][typeace_lib][INFO] buffer updated, len=12
+[2026-03-01][10:14:06][typeace_lib][INFO] request_prediction with 12 chars
+[2026-03-01][10:14:06][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:14:06][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:14:06][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:14:07][typeace_lib][INFO] global text input: g
+[2026-03-01][10:14:07][typeace_lib][INFO] buffer updated, len=13
+[2026-03-01][10:14:07][typeace_lib][INFO] request_prediction with 13 chars
+[2026-03-01][10:14:07][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:14:07][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:14:07][typeace_lib][INFO] prediction ready: work together on this project
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 135ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 154ms (467 modules)
+ ✓ Compiled in 154ms (467 modules)
+[2026-03-01][10:14:53][typeace_lib][INFO] global key: Return/Tab
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 124ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 146ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 169ms (467 modules)
+ ✓ Compiled in 147ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 132ms (467 modules)
+ ✓ Compiled in 164ms (467 modules)
+ ✓ Compiled in 176ms (467 modules)
+ ✓ Compiled in 135ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 160ms (467 modules)
+ ✓ Compiled in 164ms (467 modules)
+ ✓ Compiled in 195ms (467 modules)
+ ✓ Compiled in 123ms (467 modules)
+ ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 183ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 146ms (467 modules)
+ ✓ Compiled in 138ms (467 modules)
+ ✓ Compiled in 159ms (467 modules)
+ ✓ Compiled in 140ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 196ms (467 modules)
+ ✓ Compiled in 164ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 132ms (467 modules)
+ ✓ Compiled in 138ms (467 modules)
+ ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 154ms (467 modules)
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 129ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 185ms (467 modules)
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 155ms (467 modules)
+ ✓ Compiled in 169ms (467 modules)
+ ✓ Compiled in 129ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+ ✓ Compiled in 132ms (467 modules)
+ ✓ Compiled in 142ms (467 modules)
+ ✓ Compiled in 204ms (467 modules)
+ ✓ Compiled in 138ms (467 modules)
+ ✓ Compiled in 143ms (467 modules)
+ ✓ Compiled in 194ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+[2026-03-01][10:15:31][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:31][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+[2026-03-01][10:15:36][tao::platform_impl::platform::event_loop::runner][WARN] NewEvents emitted without explicit RedrawEventsCleared
+[2026-03-01][10:15:36][tao::platform_impl::platform::event_loop::runner][WARN] RedrawEventsCleared emitted without explicit MainEventsCleared
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 176ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+[2026-03-01][10:15:45][typeace_lib][INFO] global text input: t
+[2026-03-01][10:15:45][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:15:45][typeace_lib][INFO] global text input: a
+[2026-03-01][10:15:45][typeace_lib][INFO] buffer updated, len=2
+ ✓ Compiled in 89ms (467 modules)
+[2026-03-01][10:15:45][typeace_lib][INFO] global text input: s
+[2026-03-01][10:15:45][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:15:45][typeace_lib][INFO] global text input: k
+[2026-03-01][10:15:45][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:15:46][typeace_lib][INFO] global text input: .
+[2026-03-01][10:15:46][typeace_lib][INFO] buffer updated, len=5
+[2026-03-01][10:15:46][typeace_lib][INFO] global text input: m
+[2026-03-01][10:15:46][typeace_lib][INFO] buffer updated, len=6
+[2026-03-01][10:15:47][typeace_lib][INFO] global text input: d
+[2026-03-01][10:15:47][typeace_lib][INFO] buffer updated, len=7
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+[2026-03-01][10:15:50][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 166ms (467 modules)
+[2026-03-01][10:15:52][typeace_lib][INFO] global text input: t
+[2026-03-01][10:15:52][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:15:52][typeace_lib][INFO] global text input: a
+[2026-03-01][10:15:52][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:15:52][typeace_lib][INFO] global text input: s
+[2026-03-01][10:15:52][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:15:53][typeace_lib][INFO] global text input: k
+[2026-03-01][10:15:53][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:15:53][typeace_lib][INFO] global key: Return/Tab
+ ✓ Compiled in 197ms (467 modules)
+ ✓ Compiled in 228ms (467 modules)
+ ✓ Compiled in 344ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 123ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 171ms (467 modules)
+[2026-03-01][10:16:13][typeace_lib][INFO] global text input: t
+[2026-03-01][10:16:13][typeace_lib][INFO] buffer updated, len=1
+[2026-03-01][10:16:13][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:13][typeace_lib][INFO] buffer updated, len=2
+[2026-03-01][10:16:13][typeace_lib][INFO] global text input: k
+[2026-03-01][10:16:13][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:16:13][typeace_lib][INFO] global text input: s
+[2026-03-01][10:16:13][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:16:13][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:14][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:14][typeace_lib][INFO] global text input: s
+[2026-03-01][10:16:14][typeace_lib][INFO] buffer updated, len=3
+[2026-03-01][10:16:14][typeace_lib][INFO] global text input: k
+[2026-03-01][10:16:14][typeace_lib][INFO] buffer updated, len=4
+[2026-03-01][10:16:15][typeace_lib][INFO] global text input: .
+[2026-03-01][10:16:15][typeace_lib][INFO] buffer updated, len=5
+[2026-03-01][10:16:15][typeace_lib][INFO] global text input: m
+[2026-03-01][10:16:15][typeace_lib][INFO] buffer updated, len=6
+[2026-03-01][10:16:15][typeace_lib][INFO] global text input: d
+[2026-03-01][10:16:15][typeace_lib][INFO] buffer updated, len=7
+[2026-03-01][10:16:16][typeace_lib][INFO] global text input: y
+[2026-03-01][10:16:16][typeace_lib][INFO] buffer updated, len=8
+ ✓ Compiled in 91ms (467 modules)
+[2026-03-01][10:16:16][typeace_lib][INFO] global text input: o
+[2026-03-01][10:16:16][typeace_lib][INFO] buffer updated, len=9
+ ✓ Compiled in 96ms (467 modules)
+[2026-03-01][10:16:16][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:16][typeace_lib][INFO] buffer updated, len=10
+[2026-03-01][10:16:16][typeace_lib][INFO] global text input: g
+[2026-03-01][10:16:16][typeace_lib][INFO] buffer updated, len=11
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=12
+ ✓ Compiled in 111ms (467 modules)
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: z
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=13
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: h
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=14
+ ✓ Compiled in 97ms (467 modules)
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: o
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=15
+ ✓ Compiled in 115ms (467 modules)
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=16
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: g
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=17
+ ✓ Compiled in 157ms (467 modules)
+ ✓ Compiled in 138ms (467 modules)
+[2026-03-01][10:16:17][typeace_lib][INFO] global text input: w
+[2026-03-01][10:16:17][typeace_lib][INFO] buffer updated, len=18
+ ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+[2026-03-01][10:16:18][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:18][typeace_lib][INFO] buffer updated, len=19
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+[2026-03-01][10:16:18][typeace_lib][INFO] global text input: ,
+[2026-03-01][10:16:18][typeace_lib][INFO] buffer updated, len=20
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 126ms (467 modules)
+[2026-03-01][10:16:18][typeace_lib][INFO] global text input: r
+[2026-03-01][10:16:18][typeace_lib][INFO] buffer updated, len=21
+ ✓ Compiled in 153ms (467 modules)
+[2026-03-01][10:16:19][typeace_lib][INFO] global text input: h
+[2026-03-01][10:16:19][typeace_lib][INFO] buffer updated, len=22
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+[2026-03-01][10:16:19][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:19][typeace_lib][INFO] buffer updated, len=23
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+[2026-03-01][10:16:19][typeace_lib][INFO] global text input: m
+[2026-03-01][10:16:19][typeace_lib][INFO] buffer updated, len=24
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 167ms (467 modules)
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=25
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input: q
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=26
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input: i
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=27
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=28
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=29
+[2026-03-01][10:16:20][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:20][typeace_lib][INFO] buffer updated, len=30
+[2026-03-01][10:16:21][typeace_lib][INFO] global text input: d
+[2026-03-01][10:16:21][typeace_lib][INFO] buffer updated, len=31
+[2026-03-01][10:16:21][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:21][typeace_lib][INFO] buffer updated, len=32
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+[2026-03-01][10:16:22][typeace_lib][INFO] request_prediction with 32 chars
+[2026-03-01][10:16:22][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:22][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:22][typeace_lib][INFO] prediction ready: work together on this project
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 152ms (467 modules)
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: b
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=33
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=34
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: q
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=35
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=36
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=37
+[2026-03-01][10:16:23][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:23][typeace_lib][INFO] buffer updated, len=38
+[2026-03-01][10:16:24][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:24][typeace_lib][INFO] buffer updated, len=39
+[2026-03-01][10:16:24][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:24][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:24][typeace_lib][INFO] global text input: b
+[2026-03-01][10:16:24][typeace_lib][INFO] buffer updated, len=38
+[2026-03-01][10:16:25][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:25][typeace_lib][INFO] buffer updated, len=39
+[2026-03-01][10:16:25][typeace_lib][INFO] global text input: q
+[2026-03-01][10:16:25][typeace_lib][INFO] buffer updated, len=40
+[2026-03-01][10:16:25][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:25][typeace_lib][INFO] buffer updated, len=41
+[2026-03-01][10:16:25][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:25][typeace_lib][INFO] buffer updated, len=42
+[2026-03-01][10:16:25][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:25][typeace_lib][INFO] buffer updated, len=43
+[2026-03-01][10:16:26][typeace_lib][INFO] request_prediction with 43 chars
+[2026-03-01][10:16:26][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:26][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:26][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:26][typeace_lib][INFO] global text input: 2
+[2026-03-01][10:16:26][typeace_lib][INFO] buffer updated, len=44
+[2026-03-01][10:16:26][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 95ms (467 modules)
+[2026-03-01][10:16:26][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: b
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=43
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=44
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: q
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=45
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=46
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=47
+[2026-03-01][10:16:27][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:27][typeace_lib][INFO] buffer updated, len=48
+[2026-03-01][10:16:28][typeace_lib][INFO] request_prediction with 48 chars
+[2026-03-01][10:16:28][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:28][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:28][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:28][typeace_lib][INFO] global text input: 3
+[2026-03-01][10:16:28][typeace_lib][INFO] buffer updated, len=49
+[2026-03-01][10:16:28][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:28][typeace_lib][INFO] buffer updated, len=50
+[2026-03-01][10:16:29][typeace_lib][INFO] request_prediction with 50 chars
+[2026-03-01][10:16:29][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:29][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:29][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:29][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:29][typeace_lib][INFO] global text input: s
+[2026-03-01][10:16:29][typeace_lib][INFO] buffer updated, len=50
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=51
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: m
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=52
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: e
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=53
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: i
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=54
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: y
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=55
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: o
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=56
+[2026-03-01][10:16:30][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:30][typeace_lib][INFO] buffer updated, len=57
+[2026-03-01][10:16:31][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:31][typeace_lib][INFO] buffer updated, len=58
+[2026-03-01][10:16:31][typeace_lib][INFO] global text input: d
+[2026-03-01][10:16:31][typeace_lib][INFO] buffer updated, len=59
+[2026-03-01][10:16:31][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:31][typeace_lib][INFO] buffer updated, len=60
+[2026-03-01][10:16:31][typeace_lib][INFO] request_prediction with 60 chars
+[2026-03-01][10:16:31][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:31][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:31][typeace_lib][INFO] prediction ready: work together on this project
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+[2026-03-01][10:16:32][typeace_lib][INFO] global text input: ,
+[2026-03-01][10:16:32][typeace_lib][INFO] buffer updated, len=61
+[2026-03-01][10:16:33][typeace_lib][INFO] request_prediction with 61 chars
+[2026-03-01][10:16:33][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:33][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:33][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:33][typeace_lib][INFO] global text input: z
+[2026-03-01][10:16:33][typeace_lib][INFO] buffer updated, len=62
+[2026-03-01][10:16:33][typeace_lib][INFO] global text input: y
+[2026-03-01][10:16:33][typeace_lib][INFO] buffer updated, len=63
+[2026-03-01][10:16:33][typeace_lib][INFO] global text input: o
+[2026-03-01][10:16:33][typeace_lib][INFO] buffer updated, len=64
+[2026-03-01][10:16:33][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:33][typeace_lib][INFO] buffer updated, len=65
+[2026-03-01][10:16:34][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:34][typeace_lib][INFO] buffer updated, len=66
+[2026-03-01][10:16:34][typeace_lib][INFO] global text input: y
+[2026-03-01][10:16:34][typeace_lib][INFO] buffer updated, len=67
+[2026-03-01][10:16:34][typeace_lib][INFO] global text input: i
+[2026-03-01][10:16:34][typeace_lib][INFO] buffer updated, len=68
+[2026-03-01][10:16:34][typeace_lib][INFO] global text input: g
+[2026-03-01][10:16:34][typeace_lib][INFO] buffer updated, len=69
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=70
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input: k
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=71
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=72
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=73
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input: n
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=74
+[2026-03-01][10:16:35][typeace_lib][INFO] global text input: g
+[2026-03-01][10:16:35][typeace_lib][INFO] buffer updated, len=75
+[2026-03-01][10:16:36][typeace_lib][INFO] request_prediction with 75 chars
+[2026-03-01][10:16:36][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:36][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:36][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:36][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:36][typeace_lib][INFO] buffer updated, len=76
+[2026-03-01][10:16:36][typeace_lib][INFO] global text input: c
+[2026-03-01][10:16:36][typeace_lib][INFO] buffer updated, len=77
+[2026-03-01][10:16:36][typeace_lib][INFO] global text input: h
+[2026-03-01][10:16:36][typeace_lib][INFO] buffer updated, len=78
+[2026-03-01][10:16:36][typeace_lib][INFO] global text input: u
+[2026-03-01][10:16:36][typeace_lib][INFO] buffer updated, len=79
+[2026-03-01][10:16:36][typeace_lib][INFO] global text input: l
+[2026-03-01][10:16:36][typeace_lib][INFO] buffer updated, len=80
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+[2026-03-01][10:16:37][typeace_lib][INFO] global text input: a
+[2026-03-01][10:16:37][typeace_lib][INFO] buffer updated, len=81
+[2026-03-01][10:16:37][typeace_lib][INFO] global text input: i
+[2026-03-01][10:16:37][typeace_lib][INFO] buffer updated, len=82
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+[2026-03-01][10:16:37][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:37][typeace_lib][INFO] buffer updated, len=83
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+[2026-03-01][10:16:37][typeace_lib][INFO] global text input: ,
+[2026-03-01][10:16:37][typeace_lib][INFO] buffer updated, len=84
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+[2026-03-01][10:16:38][typeace_lib][INFO] global text input: x
+[2026-03-01][10:16:38][typeace_lib][INFO] buffer updated, len=85
+[2026-03-01][10:16:38][typeace_lib][INFO] global text input: i
+[2026-03-01][10:16:38][typeace_lib][INFO] buffer updated, len=86
+ ✓ Compiled in 162ms (467 modules)
+[2026-03-01][10:16:38][typeace_lib][INFO] global text input: e
+[2026-03-01][10:16:38][typeace_lib][INFO] buffer updated, len=87
+ ✓ Compiled in 147ms (467 modules)
+ ✓ Compiled in 132ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+[2026-03-01][10:16:38][typeace_lib][INFO] global text input: z
+[2026-03-01][10:16:38][typeace_lib][INFO] buffer updated, len=88
+ ✓ Compiled in 125ms (467 modules)
+[2026-03-01][10:16:39][typeace_lib][INFO] global text input: h
+[2026-03-01][10:16:39][typeace_lib][INFO] buffer updated, len=89
+ ✓ Compiled in 111ms (467 modules)
+[2026-03-01][10:16:39][typeace_lib][INFO] global text input: e
+[2026-03-01][10:16:39][typeace_lib][INFO] buffer updated, len=90
+[2026-03-01][10:16:39][typeace_lib][INFO] global text input: w
+[2026-03-01][10:16:39][typeace_lib][INFO] buffer updated, len=91
+ ✓ Compiled in 138ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 187ms (467 modules)
+[2026-03-01][10:16:39][typeace_lib][INFO] request_prediction with 91 chars
+[2026-03-01][10:16:39][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:39][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:39][typeace_lib][INFO] prediction ready: work together on this project
+[2026-03-01][10:16:40][typeace_lib][INFO] global text input:  
+[2026-03-01][10:16:40][typeace_lib][INFO] buffer updated, len=92
+[2026-03-01][10:16:40][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:16:40][typeace_lib][INFO] request_prediction with 91 chars
+[2026-03-01][10:16:40][typeace_lib][INFO] request_prediction mock_enabled=false
+[2026-03-01][10:16:40][typeace_lib][WARN] OPENAI_API_KEY missing in debug mode, using mock completion fallback
+[2026-03-01][10:16:40][typeace_lib][INFO] prediction ready: work together on this project
+ ✓ Compiled in 90ms (467 modules)
+[2026-03-01][10:16:42][typeace_lib][INFO] global key: Return/Tab
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+[2026-03-01][10:16:51][tao::platform_impl::platform::event_loop::runner][WARN] NewEvents emitted without explicit RedrawEventsCleared
+[2026-03-01][10:16:51][tao::platform_impl::platform::event_loop::runner][WARN] RedrawEventsCleared emitted without explicit MainEventsCleared
+[2026-03-01][10:16:53][tao::platform_impl::platform::event_loop::runner][WARN] NewEvents emitted without explicit RedrawEventsCleared
+[2026-03-01][10:16:53][tao::platform_impl::platform::event_loop::runner][WARN] RedrawEventsCleared emitted without explicit MainEventsCleared
+ ✓ Compiled in 93ms (467 modules)
+[2026-03-01][10:17:26][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 126ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 74ms (467 modules)
+ ✓ Compiled in 108ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 76ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 75ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 76ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 75ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 71ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 127ms (467 modules)
+ ✓ Compiled in 176ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 124ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 75ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+        Info File src-tauri\src\lib.rs changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+[1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 127ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:530:27
+    [1m[96m|[0m
+[1m[96m530[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:537:27
+    [1m[96m|[0m
+[1m[96m537[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:553:27
+    [1m[96m|[0m
+[1m[96m553[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:571:27
+    [1m[96m|[0m
+[1m[96m571[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 95ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:542:85
+    [1m[96m|[0m
+[1m[96m542[0m [1m[96m|[0m fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result[1m[96m...[0m
+    [1m[96m|[0m                                                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:552:58
+    [1m[96m|[0m
+[1m[96m552[0m [1m[96m|[0m fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+    [1m[96m|[0m                                                          [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:561:38
+    [1m[96m|[0m
+[1m[96m561[0m [1m[96m|[0m         dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+    [1m[96m|[0m                                      [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:570:53
+    [1m[96m|[0m
+[1m[96m570[0m [1m[96m|[0m fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+    [1m[96m|[0m                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 89ms (467 modules)
+                                                            [1m[91merror[E0061][0m[1m[97m: this function takes 3 arguments but 2 arguments were supplied[0m
+    [1m[96m--> [0msrc\lib.rs:1113:29
+     [1m[96m|[0m
+[1m[96m1113[0m [1m[96m|[0m           if let Err(err) = accept_current_suggestion(&app, &managed) {
+     [1m[96m|[0m                             [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[1m[96m----------------[0m [1m[96margument #3 of type `bool` is missing[0m
+     [1m[96m|[0m
+[1m[92mnote[0m: function defined here
+    [1m[96m--> [0msrc\lib.rs:394:4
+     [1m[96m|[0m
+ [1m[96m394[0m [1m[96m|[0m fn accept_current_suggestion(
+     [1m[96m|[0m    [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+ [1m[96m397[0m [1m[96m|[0m   remove_trigger_tab: bool,
+     [1m[96m|[0m   [1m[96m------------------------[0m
+[1m[96mhelp[0m: provide the argument
+     [1m[96m|[0m
+[1m[96m1113[0m [1m[96m| [0m          if let Err(err) = accept_current_suggestion(&app, &managed[92m, /* bool */[0m) {
+     [1m[96m|[0m                                                                     [92m++++++++++++[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0061][0m[1m[97m: this function takes 3 arguments but 2 arguments were supplied[0m
+   [1m[96m--> [0msrc\lib.rs:273:18
+    [1m[96m|[0m
+[1m[96m273[0m [1m[96m|[0m   let accepted = accept_current_suggestion(&app, &state)?;
+    [1m[96m|[0m                  [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[1m[96m--------------[0m [1m[96margument #3 of type `bool` is missing[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: function defined here
+   [1m[96m--> [0msrc\lib.rs:394:4
+    [1m[96m|[0m
+[1m[96m394[0m [1m[96m|[0m fn accept_current_suggestion(
+    [1m[96m|[0m    [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+[1m[96m397[0m [1m[96m|[0m   remove_trigger_tab: bool,
+    [1m[96m|[0m   [1m[96m------------------------[0m
+[1m[96mhelp[0m: provide the argument
+    [1m[96m|[0m
+[1m[96m273[0m [1m[96m| [0m  let accepted = accept_current_suggestion(&app, &state[92m, /* bool */[0m)?;
+    [1m[96m|[0m                                                        [92m++++++++++++[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0063][0m[1m[97m: missing field `pending_tab_accept` in initializer of `RuntimeState`[0m
+    [1m[96m--> [0msrc\lib.rs:1369:21
+     [1m[96m|[0m
+[1m[96m1369[0m [1m[96m|[0m       let runtime = RuntimeState {
+     [1m[96m|[0m                     [1m[91m^^^^^^^^^^^^[0m [1m[91mmissing `pending_tab_accept`[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[97mSome errors have detailed explanations: E0061, E0063, E0433.[0m
+[1m[97mFor more information about an error, try `rustc --explain E0061`.[0m
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[0m: could not compile `typeace` (lib) due to 11 previous errors
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 72ms (467 modules)
+        Info File src-tauri\src\lib.rs changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+[1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:530:27
+    [1m[96m|[0m
+[1m[96m530[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:537:27
+    [1m[96m|[0m
+[1m[96m537[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:553:27
+    [1m[96m|[0m
+[1m[96m553[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:571:27
+    [1m[96m|[0m
+[1m[96m571[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:542:85
+    [1m[96m|[0m
+[1m[96m542[0m [1m[96m|[0m fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result[1m[96m...[0m
+    [1m[96m|[0m                                                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:552:58
+    [1m[96m|[0m
+[1m[96m552[0m [1m[96m|[0m fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+    [1m[96m|[0m                                                          [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:561:38
+    [1m[96m|[0m
+[1m[96m561[0m [1m[96m|[0m         dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+    [1m[96m|[0m                                      [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:570:53
+    [1m[96m|[0m
+[1m[96m570[0m [1m[96m|[0m fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+    [1m[96m|[0m                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 109ms (467 modules)
+                                                            [1m[91merror[E0061][0m[1m[97m: this function takes 3 arguments but 2 arguments were supplied[0m
+    [1m[96m--> [0msrc\lib.rs:1115:29
+     [1m[96m|[0m
+[1m[96m1115[0m [1m[96m|[0m           if let Err(err) = accept_current_suggestion(&app, &managed) {
+     [1m[96m|[0m                             [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[1m[96m----------------[0m [1m[96margument #3 of type `bool` is missing[0m
+     [1m[96m|[0m
+[1m[92mnote[0m: function defined here
+    [1m[96m--> [0msrc\lib.rs:394:4
+     [1m[96m|[0m
+ [1m[96m394[0m [1m[96m|[0m fn accept_current_suggestion(
+     [1m[96m|[0m    [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+ [1m[96m397[0m [1m[96m|[0m   remove_trigger_tab: bool,
+     [1m[96m|[0m   [1m[96m------------------------[0m
+[1m[96mhelp[0m: provide the argument
+     [1m[96m|[0m
+[1m[96m1115[0m [1m[96m| [0m          if let Err(err) = accept_current_suggestion(&app, &managed[92m, /* bool */[0m) {
+     [1m[96m|[0m                                                                     [92m++++++++++++[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0061][0m[1m[97m: this function takes 3 arguments but 2 arguments were supplied[0m
+   [1m[96m--> [0msrc\lib.rs:273:18
+    [1m[96m|[0m
+[1m[96m273[0m [1m[96m|[0m   let accepted = accept_current_suggestion(&app, &state)?;
+    [1m[96m|[0m                  [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[1m[96m--------------[0m [1m[96margument #3 of type `bool` is missing[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: function defined here
+   [1m[96m--> [0msrc\lib.rs:394:4
+    [1m[96m|[0m
+[1m[96m394[0m [1m[96m|[0m fn accept_current_suggestion(
+    [1m[96m|[0m    [1m[92m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96m...[0m
+[1m[96m397[0m [1m[96m|[0m   remove_trigger_tab: bool,
+    [1m[96m|[0m   [1m[96m------------------------[0m
+[1m[96mhelp[0m: provide the argument
+    [1m[96m|[0m
+[1m[96m273[0m [1m[96m| [0m  let accepted = accept_current_suggestion(&app, &state[92m, /* bool */[0m)?;
+    [1m[96m|[0m                                                        [92m++++++++++++[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0063][0m[1m[97m: missing field `pending_tab_accept` in initializer of `RuntimeState`[0m
+    [1m[96m--> [0msrc\lib.rs:1371:21
+     [1m[96m|[0m
+[1m[96m1371[0m [1m[96m|[0m       let runtime = RuntimeState {
+     [1m[96m|[0m                     [1m[91m^^^^^^^^^^^^[0m [1m[91mmissing `pending_tab_accept`[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+                                                            [1m[97mSome errors have detailed explanations: E0061, E0063, E0433.[0m
+[1m[97mFor more information about an error, try `rustc --explain E0061`.[0m
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[0m: could not compile `typeace` (lib) due to 11 previous errors
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 73ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 96ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+        Info File src-tauri\src\lib.rs changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+[1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 119ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:530:27
+    [1m[96m|[0m
+[1m[96m530[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:537:27
+    [1m[96m|[0m
+[1m[96m537[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:553:27
+    [1m[96m|[0m
+[1m[96m553[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:571:27
+    [1m[96m|[0m
+[1m[96m571[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:542:85
+    [1m[96m|[0m
+[1m[96m542[0m [1m[96m|[0m fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result[1m[96m...[0m
+    [1m[96m|[0m                                                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:552:58
+    [1m[96m|[0m
+[1m[96m552[0m [1m[96m|[0m fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+    [1m[96m|[0m                                                          [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:561:38
+    [1m[96m|[0m
+[1m[96m561[0m [1m[96m|[0m         dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+    [1m[96m|[0m                                      [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:570:53
+    [1m[96m|[0m
+[1m[96m570[0m [1m[96m|[0m fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+    [1m[96m|[0m                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+                                                            [1m[91merror[E0063][0m[1m[97m: missing field `pending_tab_accept` in initializer of `RuntimeState`[0m
+    [1m[96m--> [0msrc\lib.rs:1402:21
+     [1m[96m|[0m
+[1m[96m1402[0m [1m[96m|[0m       let runtime = RuntimeState {
+     [1m[96m|[0m                     [1m[91m^^^^^^^^^^^^[0m [1m[91mmissing `pending_tab_accept`[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+                                                            [1m[97mSome errors have detailed explanations: E0063, E0433.[0m
+[1m[97mFor more information about an error, try `rustc --explain E0063`.[0m
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 98ms (467 modules)
+                                                            [1m[91merror[0m: could not compile `typeace` (lib) due to 9 previous errors
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 72ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 72ms (467 modules)
+ ✓ Compiled in 70ms (467 modules)
+ ✓ Compiled in 73ms (467 modules)
+ ✓ Compiled in 71ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 76ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 76ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+        Info File src-tauri\src\lib.rs changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+[1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:530:27
+    [1m[96m|[0m
+[1m[96m530[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:537:27
+    [1m[96m|[0m
+[1m[96m537[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:553:27
+    [1m[96m|[0m
+[1m[96m553[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:571:27
+    [1m[96m|[0m
+[1m[96m571[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:542:85
+    [1m[96m|[0m
+[1m[96m542[0m [1m[96m|[0m fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result[1m[96m...[0m
+    [1m[96m|[0m                                                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:552:58
+    [1m[96m|[0m
+[1m[96m552[0m [1m[96m|[0m fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+    [1m[96m|[0m                                                          [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:561:38
+    [1m[96m|[0m
+[1m[96m561[0m [1m[96m|[0m         dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+    [1m[96m|[0m                                      [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:570:53
+    [1m[96m|[0m
+[1m[96m570[0m [1m[96m|[0m fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+    [1m[96m|[0m                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+                                                            [1m[97mFor more information about this error, try `rustc --explain E0433`.[0m
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[0m: could not compile `typeace` (lib) due to 8 previous errors
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 73ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 75ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+        Info File src-tauri\src\lib.rs changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+[1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 159ms (467 modules)
+                                                            [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:530:27
+    [1m[96m|[0m
+[1m[96m530[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{KEYEVENTF_KEYUP, VK_CONTROL};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:537:27
+    [1m[96m|[0m
+[1m[96m537[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::KEYEVENTF_KEYUP;
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:553:27
+    [1m[96m|[0m
+[1m[96m553[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{INPUT, INPUT_0, INPUT_KEYBOARD, KEYBDINPUT, VIRTUAL_KEY};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:571:27
+    [1m[96m|[0m
+[1m[96m571[0m [1m[96m|[0m   use windows::Win32::UI::Input::KeyboardAndMouse::{SendInput, INPUT};
+    [1m[96m|[0m                           [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:542:85
+    [1m[96m|[0m
+[1m[96m542[0m [1m[96m|[0m fn send_key_chord_windows(mod_vk: u16, key_vk: u16, keyup_flag: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS) -> Result[1m[96m...[0m
+    [1m[96m|[0m                                                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:552:58
+    [1m[96m|[0m
+[1m[96m552[0m [1m[96m|[0m fn key_input(vk: u16, flags: u32) -> windows::Win32::UI::Input::KeyboardAndMouse::INPUT {
+    [1m[96m|[0m                                                          [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:561:38
+    [1m[96m|[0m
+[1m[96m561[0m [1m[96m|[0m         dwFlags: windows::Win32::UI::Input::KeyboardAndMouse::KEYBD_EVENT_FLAGS(flags),
+    [1m[96m|[0m                                      [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[E0433][0m[1m[97m: failed to resolve: could not find `Input` in `UI`[0m
+   [1m[96m--> [0msrc\lib.rs:570:53
+    [1m[96m|[0m
+[1m[96m570[0m [1m[96m|[0m fn send_input_windows(inputs: &[windows::Win32::UI::Input::KeyboardAndMouse::INPUT]) -> Result<(), String> {
+    [1m[96m|[0m                                                     [1m[91m^^^^^[0m [1m[91mcould not find `Input` in `UI`[0m
+    [1m[96m|[0m
+[1m[92mnote[0m: found an item that was configured out
+   [1m[96m--> [0mC:\Users\Administrator\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\windows-0.58.0\src\Windows\Win32\UI\mod.rs:12:9
+    [1m[96m|[0m
+ [1m[96m11[0m [1m[96m|[0m #[cfg(feature = "Win32_UI_Input")]
+    [1m[96m|[0m       [1m[96m--------------------------[0m [1m[96mthe item is gated behind the `Win32_UI_Input` feature[0m
+ [1m[96m12[0m [1m[96m|[0m pub mod Input;
+    [1m[96m|[0m         [1m[92m^^^^^[0m
+
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 87ms (467 modules)
+                                                            [1m[97mFor more information about this error, try `rustc --explain E0433`.[0m
+[1m[96m    Building[0m [=======================> ] 473/475: typeace                                                             [1m[91merror[0m: could not compile `typeace` (lib) due to 8 previous errors
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 75ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 77ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 72ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 79ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 78ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+        Info File src-tauri\Cargo.toml changed. Rebuilding application...
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+[1m[92m   Compiling[0m windows v0.58.0
+[1m[96m    Building[0m [=======================> ] 472/475: windows  ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+                                                            [1m[92m   Compiling[0m typeace v0.1.0 (D:\code\TypeAce\src-tauri)
+[1m[96m    Building[0m [=======================> ] 473/475: typeace  ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 127ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+ ✓ Compiled in 119ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 94ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 80ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 127ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+ ✓ Compiled in 120ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 134ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 83ms (467 modules)
+ ✓ Compiled in 102ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 126ms (467 modules)
+ ✓ Compiled in 144ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 101ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 116ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 118ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 113ms (467 modules)
+ ✓ Compiled in 92ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 90ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 128ms (467 modules)
+ ✓ Compiled in 82ms (467 modules)
+ ✓ Compiled in 88ms (467 modules)
+ ✓ Compiled in 91ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+[1m[96m    Building[0m [=======================> ] 474/475: typeace… ✓ Compiled in 125ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 124ms (467 modules)
+ ✓ Compiled in 137ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 81ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+                                                            [1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 25.11s
+[1m[92m     Running[0m `target\debug\typeace.exe`
+ ✓ Compiled in 100ms (467 modules)
+ GET / 200 in 83ms
+ GET /ghost/ 200 in 38ms
+ ✓ Compiled in 142ms (467 modules)
+ GET / 200 in 63ms
+ GET /ghost/ 200 in 64ms
+[2026-03-01][10:26:07][typeace_lib][INFO] global text input: k
+[2026-03-01][10:26:07][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:26:09][typeace_lib][INFO] global text input: k
+[2026-03-01][10:26:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:26:09][typeace_lib][INFO] global text input:  
+[2026-03-01][10:26:09][typeace_lib][INFO] update_context_with_text skipped: focus not safe text
+[2026-03-01][10:26:21][typeace_lib][INFO] global key: Backspace
+[2026-03-01][10:26:21][typeace_lib][INFO] global key: Backspace
+ ✓ Compiled in 189ms (467 modules)
+ GET / 200 in 65ms
+ GET /ghost/ 200 in 114ms
+ ✓ Compiled in 192ms (467 modules)
+ GET / 200 in 113ms
+ GET /ghost/ 200 in 118ms
+ ✓ Compiled in 184ms (467 modules)
+ GET / 200 in 38ms
+ GET /ghost/ 200 in 38ms
+ ✓ Compiled in 115ms (467 modules)
+ GET /ghost/ 200 in 49ms
+ GET / 200 in 64ms
+ ✓ Compiled in 141ms (467 modules)
+ GET / 200 in 55ms
+ ✓ Compiled in 160ms (467 modules)
+ GET / 200 in 21ms
+ ✓ Compiled in 129ms (467 modules)
+ GET / 200 in 26ms
+ ✓ Compiled in 114ms (467 modules)
+ ✓ Compiled in 180ms (467 modules)
+ ✓ Compiled in 149ms (467 modules)
+ ✓ Compiled in 110ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 107ms (467 modules)
+ ✓ Compiled in 160ms (467 modules)
+ ✓ Compiled in 154ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+ ✓ Compiled in 112ms (467 modules)
+ ✓ Compiled in 154ms (467 modules)
+ ✓ Compiled in 156ms (467 modules)
+ ✓ Compiled in 161ms (467 modules)
+ ✓ Compiled in 148ms (467 modules)
+ ✓ Compiled in 127ms (467 modules)
+ ✓ Compiled in 105ms (467 modules)
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 103ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 109ms (467 modules)
+ ✓ Compiled in 137ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 115ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 95ms (467 modules)
+ ✓ Compiled in 111ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 122ms (467 modules)
+ ✓ Compiled in 132ms (467 modules)
+ ✓ Compiled in 137ms (467 modules)
+ ✓ Compiled in 121ms (467 modules)
+ ✓ Compiled in 100ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 104ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 84ms (467 modules)
+ ✓ Compiled in 85ms (467 modules)
+ ✓ Compiled in 86ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+ ✓ Compiled in 700ms (467 modules)
+ ✓ Compiled in 281ms (467 modules)
+ ✓ Compiled in 151ms (467 modules)
+ ✓ Compiled in 152ms (467 modules)
+ ✓ Compiled in 217ms (467 modules)
+ ✓ Compiled in 222ms (467 modules)
+ ✓ Compiled in 195ms (467 modules)
+ ✓ Compiled in 182ms (467 modules)
+ ✓ Compiled in 199ms (467 modules)
+ ✓ Compiled in 290ms (467 modules)
+ ✓ Compiled in 365ms (467 modules)
+ ✓ Compiled in 280ms (467 modules)
+ ✓ Compiled in 151ms (467 modules)
+ ✓ Compiled in 210ms (467 modules)
+ ✓ Compiled in 297ms (467 modules)
+ ✓ Compiled in 280ms (467 modules)
+ ✓ Compiled in 314ms (467 modules)
+ ✓ Compiled in 301ms (467 modules)
+ ✓ Compiled in 215ms (467 modules)
+ ✓ Compiled in 266ms (467 modules)
+ ✓ Compiled in 97ms (467 modules)
+ ✓ Compiled in 246ms (467 modules)
+ ✓ Compiled in 152ms (467 modules)
+ ✓ Compiled in 236ms (467 modules)
+ ✓ Compiled in 230ms (467 modules)
+ ✓ Compiled in 402ms (467 modules)
+ ✓ Compiled in 293ms (467 modules)
+ ✓ Compiled in 284ms (467 modules)
+ ✓ Compiled in 270ms (467 modules)
+ ✓ Compiled in 230ms (467 modules)
+ ✓ Compiled in 198ms (467 modules)
+ ✓ Compiled in 190ms (467 modules)
+ ✓ Compiled in 196ms (467 modules)
+ ✓ Compiled in 227ms (467 modules)
+ ✓ Compiled in 216ms (467 modules)
+ ✓ Compiled in 208ms (467 modules)
+ ✓ Compiled in 216ms (467 modules)
+ ✓ Compiled in 206ms (467 modules)
+ ✓ Compiled in 206ms (467 modules)
+ ✓ Compiled in 288ms (467 modules)
+ ✓ Compiled in 277ms (467 modules)
+ ✓ Compiled in 270ms (467 modules)
+ ✓ Compiled in 166ms (467 modules)
+ ✓ Compiled in 135ms (467 modules)
+ ✓ Compiled in 198ms (467 modules)
+ ✓ Compiled in 244ms (467 modules)
+ ✓ Compiled in 205ms (467 modules)
+ ✓ Compiled in 221ms (467 modules)
+ ✓ Compiled in 202ms (467 modules)
+ ✓ Compiled in 198ms (467 modules)
+ ✓ Compiled in 133ms (467 modules)
+ ✓ Compiled in 136ms (467 modules)
+ ✓ Compiled in 235ms (467 modules)
+ ✓ Compiled in 313ms (467 modules)
+ ✓ Compiled in 228ms (467 modules)
+ ✓ Compiled in 238ms (467 modules)
+ ✓ Compiled in 222ms (467 modules)
+ ✓ Compiled in 212ms (467 modules)
+ ✓ Compiled in 169ms (467 modules)
+ ✓ Compiled in 202ms (467 modules)
+ ✓ Compiled in 214ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 98ms (467 modules)
+ ✓ Compiled in 208ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 93ms (467 modules)
+[2026-03-01][10:31:19][typeace_lib][INFO] global key: Return/Tab
+ ✓ Compiled in 89ms (467 modules)
+ ✓ Compiled in 158ms (467 modules)
+ ✓ Compiled in 131ms (467 modules)
+ ✓ Compiled in 275ms (467 modules)
+ ✓ Compiled in 117ms (467 modules)
+ ✓ Compiled in 180ms (467 modules)
+ ✓ Compiled in 182ms (467 modules)
+ ✓ Compiled in 99ms (467 modules)
+ ✓ Compiled in 192ms (467 modules)
+ ✓ Compiled in 228ms (467 modules)
+ ✓ Compiled in 212ms (467 modules)
+ ✓ Compiled in 106ms (467 modules)
+ ✓ Compiled in 218ms (467 modules)
+ ✓ Compiled in 297ms (467 modules)

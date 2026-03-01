@@ -29,15 +29,24 @@ export default function GhostPage() {
   }, []);
 
   return (
-    <main className="pointer-events-none h-screen w-screen bg-transparent p-0">
-      <div
-        className={cn(
-          "h-full w-full rounded-md border border-zinc-300/50 bg-white/20 px-2 py-1 text-sm text-zinc-500 backdrop-blur-sm transition-opacity",
-          payload.visible ? "opacity-100" : "opacity-0",
-        )}
-      >
-        {payload.text}
-      </div>
-    </main>
+    <>
+      <style jsx global>{`
+        html,
+        body {
+          background: transparent !important;
+          overflow: hidden !important;
+        }
+      `}</style>
+      <main className="pointer-events-none h-screen w-screen bg-transparent p-0">
+        <div
+          className={cn(
+            "h-full w-full overflow-hidden whitespace-pre text-[13px] leading-6 text-zinc-400/85 transition-opacity",
+            payload.visible ? "opacity-100" : "opacity-0",
+          )}
+        >
+          {payload.text}
+        </div>
+      </main>
+    </>
   );
 }
