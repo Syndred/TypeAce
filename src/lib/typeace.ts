@@ -1,13 +1,33 @@
 export type AiStyle = "casual" | "professional" | "creative";
+export type InferenceMode = "local" | "cloud";
+export type OutputLanguage =
+  | "auto"
+  | "zh"
+  | "en"
+  | "ja"
+  | "ko"
+  | "es"
+  | "fr"
+  | "de";
 export type HotkeyMode = "tab" | "ctrlSpace" | "custom";
 
 export interface Settings {
   enabled: boolean;
   triggerDelayMs: number;
   aiStyle: AiStyle;
+  inferenceMode: InferenceMode;
+  outputLanguage: OutputLanguage;
+  requestOnBoundaryOnly: boolean;
+  localBaseUrl: string;
+  localModelZh: string;
+  localModelEn: string;
+  localMaxTokens: number;
+  cloudBaseUrl: string;
+  cloudApiKey: string;
+  cloudModel: string;
+  cloudMaxTokens: number;
   hotkeyMode: HotkeyMode;
   customHotkey: string;
-  isPro: boolean;
   autostart: boolean;
   minimumLength: number;
 }
@@ -33,13 +53,23 @@ export interface GhostEventPayload {
 
 export const defaultSettings: Settings = {
   enabled: true,
-  triggerDelayMs: 500,
+  triggerDelayMs: 90,
   aiStyle: "casual",
+  inferenceMode: "cloud",
+  outputLanguage: "zh",
+  requestOnBoundaryOnly: false,
+  localBaseUrl: "http://127.0.0.1:11434/api/generate",
+  localModelZh: "qwen2.5:1.5b",
+  localModelEn: "llama3.2:1b",
+  localMaxTokens: 32,
+  cloudBaseUrl: "https://api.deepseek.com/v1/chat/completions",
+  cloudApiKey: "",
+  cloudModel: "deepseek-chat",
+  cloudMaxTokens: 32,
   hotkeyMode: "tab",
   customHotkey: "Ctrl+Shift+Space",
-  isPro: false,
   autostart: false,
-  minimumLength: 10,
+  minimumLength: 1,
 };
 
 export const defaultUsage: UsageStats = {
@@ -53,5 +83,5 @@ export const defaultSnapshot: AppSnapshot = {
   usage: defaultUsage,
   suggestion: null,
   ghostVisible: false,
-  remainingToday: 50,
+  remainingToday: null,
 };
